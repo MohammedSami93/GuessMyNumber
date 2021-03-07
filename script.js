@@ -44,7 +44,7 @@ document.querySelector('.check').addEventListener('click', function () {
       score--;
       document.querySelector('.score').textContent = score;
     } else {
-      displayMessage('😛😂 You lose the game!');
+      displayMessage('😛😂 Loooooser!');
       document.querySelector('.score').textContent = 0;
       document.querySelector('.number').textContent = secretNumber;
       document.querySelector('.number').style.width = '30rem';
